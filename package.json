@@ -1,0 +1,10 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "dev": "lerna run dev --parallel --stream --scope=@monorepo/{client,server}"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}

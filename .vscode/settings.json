@@ -42,6 +42,7 @@
     "mixins",
     "mkdir",
     "msapplication",
+    "nestjs",
     "nextjs",
     "noopener",
     "noreferrer",

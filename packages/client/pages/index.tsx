@@ -1,7 +1,7 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
-import { hello } from '@monorepo/shared/dist';
+import { hello } from '@monorepo/shared/src';
 import styles from '../styles/Home.module.css';
 
 const Home: NextPage = () => {

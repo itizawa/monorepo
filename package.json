@@ -4,11 +4,13 @@
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "lint": "eslint \"./**/*.{js,jsx,ts,tsx}\"",
+    "dev": "lerna run dev --parallel --scope=@monorepo/{client,server}",
     "client:dev": "lerna run dev --parallel --scope=@monorepo/client",
     "client:build": "lerna run build --parallel --scope=@monorepo/client",
     "preclient:build": "yarn shared:build",
     "shared:build": "lerna run build --parallel --scope=@monorepo/shared",
     "server:dev": "lerna run dev --parallel --scope=@monorepo/server",
+    "server:build": "lerna run build --parallel --scope=@monorepo/server",
     "release": "lerna publish"
   },
   "devDependencies": {

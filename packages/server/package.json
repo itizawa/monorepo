@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "> TODO: description",
   "author": "itizawa <itizawa.pen@gmail.com>",
-  "private": true,
   "license": "UNLICENSED",
   "scripts": {
     "prebuild": "rimraf dist",

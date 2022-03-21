@@ -15,7 +15,7 @@
   "devDependencies": {
     "@types/react": "17.0.41"
   },
-  "description": "> TODO: description",
+  "description": "template for monorepo",
   "author": "itizawa <itizawa.pen@gmail.com>",
   "homepage": "",
   "license": "ISC",

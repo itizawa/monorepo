@@ -1,5 +1,6 @@
 {
   "name": "root",
+  "private": true,
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "lint": "eslint \"./**/*.{js,jsx,ts,tsx}\"",

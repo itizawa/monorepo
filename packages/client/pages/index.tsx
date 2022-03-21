@@ -1,12 +1,9 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
-import { hello } from '../../shared/dist';
 import styles from '../styles/Home.module.css';
 
 const Home: NextPage = () => {
-  hello();
-  hello('test!');
   return (
     <div className={styles.container}>
       <Head>

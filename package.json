@@ -5,7 +5,8 @@
     "bootstrap": "lerna bootstrap",
     "lint": "eslint \"./**/*.{js,jsx,ts,tsx}\"",
     "client:dev": "lerna run dev --parallel --scope=@monorepo/client",
-    "server:dev": "lerna run dev --parallel --scope=@monorepo/server"
+    "server:dev": "lerna run dev --parallel --scope=@monorepo/server",
+    "release":"lerna publish"
   },
   "devDependencies": {
     "eslint": "^8.11.0",

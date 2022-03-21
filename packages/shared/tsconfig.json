@@ -3,4 +3,16 @@
   "include": [
     "src",
   ],
+  "compilerOptions": {
+    "outDir": "dist",
+    "declaration": true,
+    "noResolve": false,
+    "preserveConstEnums": true,
+    "sourceMap": false,
+    "noEmit": false,
+
+    "baseUrl": ".",
+    "paths": {
+    }
+  }
 }

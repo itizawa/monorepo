@@ -6,23 +6,27 @@
     "lint": "eslint \"./**/*.{js,jsx,ts,tsx}\"",
     "client:dev": "lerna run dev --parallel --scope=@monorepo/client",
     "server:dev": "lerna run dev --parallel --scope=@monorepo/server",
-    "release":"lerna publish"
+    "release": "lerna publish"
   },
   "devDependencies": {
+    "@types/node": "^17.0.21",
     "eslint": "^8.11.0",
-    "eslint-plugin-prettier": "4.0.0",
-    "lerna": "^4.0.0",
-    "prettier": "^2.6.0",
-    "typescript": "^4.6.2",
     "eslint-config-next": "12.0.9",
     "eslint-config-prettier": "8.3.0",
     "eslint-import-resolver-typescript": "2.5.0",
     "eslint-plugin-import": "2.25.4",
     "eslint-plugin-jsx-a11y": "6.5.1",
+    "eslint-plugin-prettier": "4.0.0",
     "eslint-plugin-react": "7.28.0",
-    "eslint-plugin-react-hooks": "4.3.0"
+    "eslint-plugin-react-hooks": "4.3.0",
+    "lerna": "^4.0.0",
+    "prettier": "^2.6.0",
+    "typescript": "^4.6.2"
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "volta": {
+    "node": "17.7.2"
+  }
 }

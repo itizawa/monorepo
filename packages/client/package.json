@@ -13,7 +13,7 @@
     "react-dom": "18.0.0"
   },
   "devDependencies": {
-    "@types/react": "18.0.6"
+    "@types/react": "18.0.8"
   },
   "description": "template for monorepo",
   "author": "itizawa <itizawa.pen@gmail.com>",

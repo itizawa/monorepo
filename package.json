@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@types/node": "18.11.9",
-    "eslint": "8.27.0",
+    "eslint": "8.28.0",
     "eslint-config-next": "13.0.4",
     "eslint-config-prettier": "8.5.0",
     "eslint-import-resolver-typescript": "3.5.2",

@@ -14,7 +14,7 @@
     "release": "lerna publish"
   },
   "devDependencies": {
-    "@types/node": "18.11.11",
+    "@types/node": "18.11.12",
     "eslint": "8.29.0",
     "eslint-config-next": "13.0.6",
     "eslint-config-prettier": "8.5.0",
